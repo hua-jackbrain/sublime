@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+<div class="fixed">
+	<nav class="top-bar" data-topbar>
+		<ul class="title-area">
+			<li class="name">
+				<h1><a href="">Home</a></h1>
+			</li>
+			<li class="toggle-topbar menu-icon">
+				<a href=""><span>Menu</span></a>
+			</li>
+		</ul>
+		<section class="top-bar-section">
+			<ul class="left">
+				<li class="active"><a href="">Home</a></li>
+				<li class="has-dropdown">
+					<a href="">Dropdown</a>
+					<ul class="dropdown">
+						<li><label>Fruit</label></li>
+						<li><a href="">Link</a></li>
+						<li class="divider"></li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+	</nav>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>f-top-bar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

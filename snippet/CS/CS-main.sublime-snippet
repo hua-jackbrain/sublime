@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _${TM_FILEPATH/.*\/(\w+)\/\w+\.cs/\1/g)}
+{
+	class ${TM_FILENAME/(\w+).cs/\1/g}
+	{
+		static void Main(string[] args)
+		{
+			$1
+		}
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>main</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.cs</scope>
+</snippet>

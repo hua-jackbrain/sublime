@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<ul class="media-list">
+	<li class="media">
+		<div class="media-left">
+			<a href=""><img src="$1" alt="" class="media-object"></a>
+		</div>
+		<div class="media-body">
+			<h4 class="media-heading">${2:Title}</h4>
+			<p>${3:Content}</p>
+		</div>
+	</li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>media-list</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

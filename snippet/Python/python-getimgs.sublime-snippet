@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+def getImgs(url, regexp=${1:'img'}):
+	headers = {"User-Agent": "Mozilla/5.0"}
+	html = requests.get(url, headers=headers).text
+	soup = bs(html, "html.parser") 
+	img = soup.find_all(regexp)
+	title = soup.find_all('title')[0].get_text()
+	print(title + '      ' + url)
+
+	for i in img:
+		src = i.attrs["src"]
+		print(src)
+
+$2		
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getimgs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

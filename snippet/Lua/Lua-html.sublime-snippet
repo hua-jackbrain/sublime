@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+#!C:\Program Files\Lua\5.1\lua.exe
+print("Content-type: text/html\n\n")
+print("<h2>Hello Lua</h2>")
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.lua</scope>
+</snippet>

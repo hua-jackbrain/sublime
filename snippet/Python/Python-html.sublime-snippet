@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+#!C:/Python27/python.exe
+print "Content-type:text/html"
+print                        
+print '<html>'
+print '<head>'
+print '<meta charset="utf-8">'
+print '<title>Hello Python!</title>'
+print '</head>'
+print '<body>'
+$1
+print '</body>'
+print '</html>'
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.py</scope>
+</snippet>

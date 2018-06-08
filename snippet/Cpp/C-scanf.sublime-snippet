@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+scanf("%$1", &$2);
+]]></content>
+<!-- getElement${1/(T)|(C)|.*/(?1:s)/}By${1:T}${1/(T)|(I)|(C)|.*/(?1:agName)(?2:d)(?3:assName)/}('$2') -->
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c,source.cpp</scope>
+</snippet>

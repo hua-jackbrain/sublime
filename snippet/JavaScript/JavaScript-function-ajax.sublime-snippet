@@ -1,0 +1,42 @@
+<snippet>
+	<content><![CDATA[
+function ajax(data){
+    var xhr = null;
+    xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+    var type = data.type.toLowerCase() =='get' ? 'get' : 'post';
+    var url = '';
+    if(data.url){
+        url = data.url;
+        if(type == 'get'){
+            url += '?' + data.data + '&t=' + new Date().getTime();//get请求会有缓存 添加t参数来强制获取实时数据
+        }
+    }
+    var async = data.async = true ? true : false;
+    xhr.open(type, url, async);
+
+    if(type == 'get'){
+        xhr.send(null);
+    }else if(type == 'post'){
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.send(data.data);
+    }
+
+    xhr.onreadystatechange = function(){
+        if(this.readyState == 4 && this.status == 200){
+            if(typeof data.success == 'function'){
+                var d = data.dataType == 'xml' ? xhr.reasponseXML : xhr.responseText;
+                data.success(d);
+            }else{
+                if(typeof data.error == 'function'){
+                    data.error();
+                }
+            }
+        }
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ajax</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.js</scope> -->
+</snippet>

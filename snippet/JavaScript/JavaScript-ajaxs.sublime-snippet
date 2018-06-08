@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+(function (open) {
+   XMLHttpRequest.prototype.open = function () {
+       this.addEventListener("readystatechange", function () {
+           if (this.responseURL.indexOf('${1:.m3u8}') >= 0) {
+               var title = document.title;
+               var url = this.responseURL;
+			   console.log("%cTitle", "font-size:24px;font-family:Microsoft YaHei;font-weight:bold;");
+               console.log(url);
+           }
+   	   }, false);
+       open.apply(this, arguments);
+   };
+})(XMLHttpRequest.prototype.open);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ajaxs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

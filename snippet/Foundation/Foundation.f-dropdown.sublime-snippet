@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<button type="button" class="button dropdown" data-options="align:bottom" data-dropdown="${1:dropdown}">Dropdown</button>
+<ul id="${1:dropdown}" class="f-dropdown" data-dropdown-content>
+	<li><a href="">${2:item}</a></li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>f-dropdown</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

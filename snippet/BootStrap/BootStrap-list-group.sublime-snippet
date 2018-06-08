@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<ul class="list-group">
+	<li class="list-group-item list-group-item-success active">
+		<h4 class="list-group-item-heading">${1:header}</h4>
+		<p class="list-group-item-text">${2:Content}</p>
+	</li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>list-group</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

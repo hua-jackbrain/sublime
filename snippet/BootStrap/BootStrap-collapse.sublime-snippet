@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="panelHeading">
+	  <h4 class="panel-title">
+		<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseContent" aria-expanded="true" aria-controls="collapseContent">
+		  ${1:title}
+		</a>
+	  </h4>
+	</div>
+	<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="panelHeading">
+	  <div class="panel-body">
+		${2:content}
+	  </div>
+	</div>
+  </div>
+</div>        
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>collapse</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

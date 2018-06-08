@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<ul class="tabs vertical" data-tab>
+	<li class="tab-title active"><a href="#${1:home}">${1:home}</a></li>
+</ul>
+<div class="tabs-content">
+	<div class="content active" id="${1:home}">
+		<h3>$1 Title</h3>
+		<p>$1 Content</p>
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>f-tabs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

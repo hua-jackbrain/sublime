@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<ul class="pricing-table">
+	<li class="title">Basic</li>
+	<li class="price">\$2.0</li>
+	<li class="description">Great for business</li>
+	<li class="bullet-item">15GB Storage</li>
+	<li class="cta-button"><a href="" class="button">Buy</a></li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>f-price-table</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

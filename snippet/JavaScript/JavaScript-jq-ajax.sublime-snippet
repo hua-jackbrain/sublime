@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+ \$.ajax({
+    type: '${1:get}',
+    async: false,//flase为同步
+    url: '${2:requireURL}',
+    data : $3,  
+    dataType: 'jsonp',
+    success: function(data){
+        console.log(${4:data});
+    },
+    error: function(){
+        console.log('fail');
+    }
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jq-ajax</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

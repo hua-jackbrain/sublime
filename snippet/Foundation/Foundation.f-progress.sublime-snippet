@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="progress success round large-12">
+	<span class="meter" style="width:${1:70}%;position:relative;">
+		<span style="position:absolute;top:50%;left:50%;color:white;font-size:12px;transform:translate(-50%,-50%);">${1:70}%</span>
+	</span>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>f-progress</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

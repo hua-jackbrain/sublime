@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+for(var ${1:prop} in ${2:obj}) {
+	${3:if(Object.prototype.hasOwnProperty.call(${2:obj}, prop)) {
+		$0
+	\}}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fori</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

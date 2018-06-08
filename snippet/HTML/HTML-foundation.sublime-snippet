@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/foundation/5.5.3/css/foundation.min.css">
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/foundation/5.5.3/js/foundation.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/foundation/5.5.3/js/vendor/modernizr.js"></script>
+<link rel="stylesheet" href="http://static.runoob.com/assets/foundation-icons/foundation-icons.css">
+<script type="text/javascript">
+	\$(document).ready(function() {
+		\$(document).foundation();
+	});
+</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>foundation</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php,text.html</scope> -->
+</snippet>

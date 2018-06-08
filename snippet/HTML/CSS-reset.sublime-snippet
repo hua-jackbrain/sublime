@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+/*css reset */
+html,body,div,h1,h2,h3,h4,h5,h6,p,form,input,select,textarea,ol,ul,li,dl,dt,dd,table,th,td,caption,thead,tbody,tfoot,canvas,header,nav,footer,fieldset,legend,img{margin:0;padding:0; }
+body{font: 12px "宋体";}
+a{text-decoration: none; color:#666;}
+a:hover,a:active,a:focus{color:#ff8400;text-decoration:undeline;}
+img{border:0; vertical-align: top;}
+ol,ul{list-style: none;}
+table{border-collapse:collapse;}
+input{border: 0 none; outline-style: none;}
+textarea{resize:none;outline-style:none;}
+.clearfix:after{content:"";display:block;height:0;visibility:hidden;clear:both;}
+.clearfix{zoom:1;}
+.clearit{clear:both;height:0;font-size:0;overflow:hidden;}
+.fl{float:left;_display:inline;}
+.fr{float:right;_display:inline;}
+.hide{display:none;}
+.show{display:block;}
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>creset</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html,source.css</scope>
+</snippet>

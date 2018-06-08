@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<${1:div} class="${1/(div)|(li)/(?1:btn-group)(?2:dropdown)/}">
+	${1/(div)|(li)/(?1:<button type="button" class="btn btn-danger">Dropdown<\/button> 
+							<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+								<span class="caret"><\/span> 
+							<\/button>)(?2:<a href="" class="dropdown-toggle" data-toggle="dropdown">
+								Dropdown
+								<span class="caret"><\/span>
+							<\/a>)/}
+	<ul class="dropdown-menu">
+		<li class="dropdown-header">Dropdown header</li>
+		<li><a href="">${2:item}</a></li>
+	</ul>
+</${1:div}>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dropdown</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+#!C:/Ruby23/bin/ruby.exe
+puts "Content-type: text/html\n\n"
+puts "<h2>Hello Ruby</h2>"
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+#!C:/perl/perl/bin/perl.exe   
+print "Content-type: text/html\n\n"; 
+print "<h2>Hello Perl</h2>"
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,42 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * location.host：thzthz.net
+ * fullName: 全名
+ * id：download ID  数组
+ * downlink: 'http://' + location.host + '/forum.php?mod=attachment&aid=' + id;
+ * name：普通名
+ * type：文件格式 一般为mp4
+ * startTime：配信開始日 数字内容上线时间
+ * planTime：商品発売日 计划开始发售时间
+ * getTime：収録時間
+ * actors：出演者
+ * tags：视频标签 关键词 hot words
+ * designation：品番
+ * imgs: 图片 数组
+ *
+ * downLink: 'http://thzthz.net/forum.php?mod=attachment&aid=' + id
+ */
+var ${1:arr} = [
+	$0
+
+	{}
+];
+
+function getLinks(arr) {
+	var baseURL = 'http://thzthz.net/forum.php?mod=attachment&aid=';
+	arr.forEach(function(item, index) {
+		item.id.forEach(function(ele, i) {
+			console.log(baseURL + ele.replace('/%3D/g', '='));
+		});
+	});
+}
+getLinks(${1:arr});
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>thz</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

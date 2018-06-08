@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<div class="row">
+    <div class="col-sm-6 col-sm-3">
+        <div class="carousel slide" id="${1:carousel}" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li class="active" data-target="#${1:carousel}" data-slide-to="0"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="${2:images/1.png}">
+                    <div class="carousel-caption">${3:Title 1}</div>
+                </div>
+            </div>
+            <a href="#${1:carousel}" class="carousel-control left" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a href="#${1:carousel}" class="carousel-control right" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+    </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>carousel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<button type="button" class="button" data-reveal-id="modal">Modal</button>
+<div id="modal" class="reveal-modal medium" data-reveal>
+	<h2>Modal Heading</h2>
+	<p>Some Text</p>
+	<a href="" class="close-reveal-modal">&times;</a>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>f-modal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

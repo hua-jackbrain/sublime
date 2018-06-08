@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<div class="panel-group" id="accordion">
+	<div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#${1:collapse1}">${2:Title}</a>
+            </h4>
+        </div>
+        <div id="${1:collapse1}" class="panel-collapse collapse">
+            <div class="panel-body">
+                ${2:Content}
+            </div>
+        </div>
+    </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>panel-group</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

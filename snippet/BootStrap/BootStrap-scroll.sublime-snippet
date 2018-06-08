@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div data-spy="scroll" data-target="${navbarID}" data-offset="0" style="height:200px;overflow:auto;position:relative;">
+	<h4 id="${2:id}">$2</h4>
+	<p>${3:Content}</p>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scroll</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

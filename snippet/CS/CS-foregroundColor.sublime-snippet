@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Console.ForegroundColor = ConsoleColor.${1:Yellow};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fore</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.cs</scope>
+</snippet>

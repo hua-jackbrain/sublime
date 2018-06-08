@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h3 class="panel-title">
+			${1:Title}
+		</h3>
+	</div>
+	<div class="panel-body">
+		${2:Content}
+	</div>
+	<div class="panel-footer">
+		${3:Footer}
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>panel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

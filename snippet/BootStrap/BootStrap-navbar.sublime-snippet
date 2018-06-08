@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+<nav class="navbar navbar-fixed-top navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="" class="navbar-brand">${1:Brand}</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="">${2:Link}</a></li>
+				<li><a href="">Link2</a></li>
+			</ul>
+			$0
+		</div>
+	</div>
+</nav>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>navbar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<ul class="clearing-thumbs clearing-feature" data-clearing>
+	<li> <a href="${1:images/1.jpg}" class="th radius"><img src="${2:images/1.png}" data-caption="${3:image description}" alt=""></a> </li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>f-thumb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

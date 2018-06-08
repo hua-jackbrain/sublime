@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+$dir = './Ssni-083 Her Younger';
+$ds = opendir($dir);
+$a = 0;
+while($file = readdir($ds)) {
+	if($file != '.' && $file != '..') {
+		$path = $dir.'/'.$file;
+		$ptn = "/hls_720_(\d+)(_2)?\.ts/";
+		preg_match($ptn, $file, $nums); 
+		if(strlen($nums[1]) == 1 || (strlen($nums[1]) == 1 && $nums[1] == '0')) {
+			rename($path, $dir.'/hls_720_000'.$nums[1].'.ts');
+		} else if(strlen($nums[1]) == 2) {
+			rename($path, $dir.'/hls_720_00'.$nums[1].'.ts');
+		} else if(strlen($nums[1]) == 3) {
+			rename($path, $dir.'/hls_720_0'.$nums[1].'.ts');
+		} 
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>m3u8</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

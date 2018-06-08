@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="${1:content}">${2:content}</button>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>popover</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

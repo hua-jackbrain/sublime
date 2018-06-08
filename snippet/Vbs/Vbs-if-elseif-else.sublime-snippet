@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+If $1 Then
+$2
+ElseIf $3 Then
+$4
+Else
+$5
+End If
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ifeif</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.vbs</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<link rel="stylesheet" href="node_modules/layui-src/dist/css/layui.css"  media="all">
+<script src="node_modules/layui-src/dist/layui.js" charset="utf-8"></script>
+<!--[if lt IE 9]>
+  <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>layui</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

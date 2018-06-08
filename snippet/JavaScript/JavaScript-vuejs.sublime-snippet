@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<script src="http://apps.bdimg.com/libs/vue/1.0.14/vue.js"></script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vuejs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

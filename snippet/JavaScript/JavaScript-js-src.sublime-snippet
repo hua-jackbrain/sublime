@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+${1:var sc = document.createElement('script');
+sc.src = 'https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js';
+document.body.appendChild(sc);}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scsc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

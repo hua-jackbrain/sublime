@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+public class ${TM_FILENAME/(\w+)\.java/\1/g} {
+    public static void main(String []args) {
+        $1
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mains</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+</snippet>

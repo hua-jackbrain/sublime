@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="panel callout radius">
+	<h3>${1:Title}</h3>
+	<p>${2:Content}</p>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>f-panel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

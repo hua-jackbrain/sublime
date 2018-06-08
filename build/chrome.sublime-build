@@ -1,0 +1,6 @@
+{
+    "cmd": ["C:\\Users\\Administrator\\AppData\\Local\\360Chrome\\Chrome\\Application\\360chrome.exe", "$file"],
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "selector": "text.html",
+    "encoding": "utf-8"
+}

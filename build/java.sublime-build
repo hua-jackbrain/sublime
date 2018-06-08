@@ -1,0 +1,14 @@
+{
+    "cmd": ["cd", "/d", "${file_path}", "&&", "javac", "-encoding", "utf-8", "$file_name", "&&", "java", "$file_base_name"],
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "selector": "source.java",
+    "encoding": "GBK",
+    "shell": true,
+    "variants": 
+    [
+    	{
+    		"name": "RunShell",
+    		"shell_cmd": " start cmd /c \"cd /d ${file_path} && javac -encoding utf-8 ${file_name} && java ${file_base_name} &pause\""
+    	}
+    ]
+}

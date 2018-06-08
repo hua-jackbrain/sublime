@@ -1,0 +1,21 @@
+{
+    "cmd": ["python", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python",
+    "encoding": "utf-8",
+    "variants":
+    [ 
+        {
+            "name": "Python3.6",
+            "shell_cmd": "python3 ${file}"
+        },
+    	{
+    		"name": "RunInShell_Python2.7",
+    		"shell_cmd": "start cmd /c \"python ${file} &pause\""
+    	},
+        {
+            "name": "RunInShell_Python3.6",
+            "shell_cmd": "start cmd /c \"python3 ${file} &pause\""
+        }
+    ]
+}

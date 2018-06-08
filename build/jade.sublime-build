@@ -1,0 +1,5 @@
+{
+	"cmd": ["jade", "$file", "-P", "1>nul"],
+	"selector": "text.jade",
+	"windows": {"shell": "true"}
+}

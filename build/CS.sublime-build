@@ -1,0 +1,14 @@
+{
+    "cmd": ["runCS.bat", "$file", "1"],
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "selector": "source.cs",
+    "encoding": "gbk",
+    "shell": true,
+    "variants":
+    [
+    	{
+    		"name": "RunInShell",
+    		"shell_cmd": "runCS.bat $file 2"
+    	}
+    ]
+}

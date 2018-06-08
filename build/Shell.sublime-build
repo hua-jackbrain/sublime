@@ -1,0 +1,13 @@
+{
+    "cmd": ["sh", "$file"],
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "selector": "source.shell",
+    "encoding": "utf-8",
+    "variants": 
+    [
+    	{
+    		"name": "RunShell",
+    		"shell_cmd": " start cmd /c \"sh \"${file}\"&pause\"  "
+    	}
+    ]
+}

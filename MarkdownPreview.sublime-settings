@@ -1,0 +1,9 @@
+{
+    "parser": "markdown",
+    "enable_mathjax": true,
+    "enable_highlight": true,
+    "build_action": "browser",   
+    "file_path_conversions": "relative",   
+    "image_path_conversion": "relative",  
+    "enabled_parsers": ["markdown"]
+}

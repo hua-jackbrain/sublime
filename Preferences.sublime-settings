@@ -1,0 +1,29 @@
+{
+	"auto_complete": true,
+	"auto_complete_selector": "-",
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.python"
+		}
+	],
+	"auto_match_enabled": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Babel/Next.tmTheme",
+	"default_encoding": "UTF-8",
+	"fade_fold_buttons": false,
+	"font_size": 15,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Markdown"
+	],
+	"save_on_focus_lost": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_size": 4,
+	"theme": "Boxy Tomorrow.sublime-theme",
+	"update_check": false,
+	"vintage_start_in_command_mode": true
+}
